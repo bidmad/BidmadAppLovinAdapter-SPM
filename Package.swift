@@ -16,7 +16,7 @@ let package = Package(
     .library(name: "BidmadAppLovinAdapter", targets: ["BidmadAppLovinAdapterTarget"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.5")),
+    .package(url: "https://github.com/bidmad/BidmadSDK-SPM.git", .upToNextMinor(from: "7.2.0-dev.7")),
     .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.7.0"),
   ],
   targets: [
@@ -30,8 +30,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BidmadAppLovinAdapter",
-      url: "https://github.com/bidmad/BidmadAppLovinAdapter-SPM/releases/download/7.2.0-dev.5+13.7.0/BidmadAppLovinAdapter.xcframework.zip",
-      checksum: "070589fdd5b40524bed74e2f0c1e5331ef03bfbabcf2de871359c573c97991f2"
+      url: "https://github.com/bidmad/BidmadAppLovinAdapter-SPM/releases/download/7.2.0-dev.7+13.7.0/BidmadAppLovinAdapter.xcframework.zip",
+      checksum: "165c35197408c07725e34de79ff4dcb9d7623c72ec191e4d7b10a5d3c65ce710"
     ),
   ]
 )
